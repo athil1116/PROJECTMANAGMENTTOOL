@@ -1,0 +1,84 @@
+.hotel-dashboard {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.hotel-dashboard h1 {
+  text-align: center;
+  color: #ff6600;
+  margin-bottom: 30px;
+}
+
+.form-section form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.form-section input {
+  flex: 1 1 30%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-section button {
+  background: #ff6600;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.food-list-section {
+  margin-top: 30px;
+}
+
+.food-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.food-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 180px;
+  padding: 10px;
+  text-align: center;
+  background: #fafafa;
+}
+
+.food-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.order-section {
+  margin-top: 40px;
+}
+
+.order-section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.order-section th, .order-section td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.order-section th {
+  background: #ff6600;
+  color: white;
+}
